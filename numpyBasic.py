@@ -1,0 +1,16 @@
+import numpy as np
+
+c = np.ones((2,3))
+d = np.zeros((2,3))
+a = np.array([[1,2,5], [3,5,4], [4,6,3]])
+b = np.array([[1,2], [4,5]])
+print(a.max())
+print(a.min())
+print(a.sum())
+print(a.mean())
+print(a.size)
+print(a.shape)
+print(c)
+print(d)
+print(a<5)
+print(np.identity(3))
